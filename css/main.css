@@ -13,11 +13,15 @@
     }
 
     .btn-primary{
-        @apply bg-btn-color text-white py-0 sm:py-1 md:py-2 px-1 sm:px-2 md:px-4 rounded-md outline-none border-2 border-btn-color hover:bg-btn-darker hover:border-btn-darker transition-all duration-300 text-nowrap;
+        @apply bg-btn-color text-white py-1 md:py-2 px-2 md:px-4 rounded-md outline-none border-2 border-btn-color hover:bg-btn-darker hover:border-btn-darker transition-all duration-300 text-nowrap;
     }
 
     .btn-secondary{
-        @apply bg-white text-btn-color py-0 sm:py-1 md:py-2 px-1 sm:px-2 md:px-4 rounded-full outline-none border-2 border-white hover:bg-btn-color hover:text-white hover:border-btn-color transition-all duration-300 text-nowrap;
+        @apply bg-white text-btn-color py-1 md:py-2 px-4 rounded-full outline-none border-2 border-white hover:bg-btn-color hover:text-white hover:border-btn-color transition-all duration-300 text-nowrap;
+    }
+
+    .btn-transparent{
+        @apply bg-transparent text-btn-color py-0 py-1 md:py-2 px-4 rounded-full outline-none border-2 border-btn-color hover:bg-btn-color hover:text-white hover:border-btn-color transition-all duration-300 text-nowrap;
     }
 }
 

@@ -18,8 +18,8 @@ module.exports = {
         'btn-color': '#F44335',
         'btn-darker': '#D32F2F',
         'card-bg': '#2D3142',
-        'dark-bg': '#0B0D11',
-        'sec-dark-bg': '#1F2937'
+        'dark-bg': '#1F2937',
+        'sec-dark-bg': '#2C3E50'
       },
 
       backgroundImage:{
