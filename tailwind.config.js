@@ -19,6 +19,10 @@ module.exports = {
         'btn-darker': '#D32F2F',
         'dark-bg': '#0B0D11',
         'sec-dark-bg': '#1F2937'
+      },
+
+      backgroundImage:{
+        'hero-bg': 'url(/assets/img/hero-cover.png)'
       }
     },
   },

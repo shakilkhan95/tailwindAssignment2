@@ -17,6 +17,13 @@
     }
 
     .btn-secondary{
-        @apply bg-white text-sec-text-color py-0 sm:py-1 md:py-2 px-1 sm:px-2 md:px-4 rounded-md outline-none border-2 border-gray-300 hover:bg-btn-color hover:text-white hover:border-btn-color transition-all duration-300 text-nowrap;
+        @apply bg-white text-btn-color py-0 sm:py-1 md:py-2 px-1 sm:px-2 md:px-4 rounded-full outline-none border-2 border-white hover:bg-btn-color hover:text-white hover:border-btn-color transition-all duration-300 text-nowrap;
     }
+}
+
+@layer utilities{
+    .rounded-edge {
+        aspect-ratio: 3/2;
+        clip-path: ellipse(100% 100% at 50% 0);
+  }
 }
