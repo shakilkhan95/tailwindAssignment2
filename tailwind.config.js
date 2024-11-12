@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ['*'],
   theme: {
     extend: {
@@ -15,8 +16,9 @@ module.exports = {
         'third-color': '#FAFAFA',
         'fourth-color': '#757095',
         'btn-color': '#F44335',
-        'dark-bg': '#1F2937',
-        'sec-dark-bg': '#2C3E50'
+        'btn-darker': '#D32F2F',
+        'dark-bg': '#0B0D11',
+        'sec-dark-bg': '#1F2937'
       }
     },
   },
