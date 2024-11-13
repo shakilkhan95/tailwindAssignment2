@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="htmlTag">
+<html lang="en" id="htmlTag" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,10 +51,10 @@
                        hidden" 
                 id="navItem">
                 
-                <li><a class="nav-item2" href="#">Home</a></li>
-                <li><a class="nav-item2" href="#">About Us</a></li>
-                <li><a class="nav-item2" href="#">Upskill</a></li>
-                <li><a class="nav-item2" href="#">Contact Us</a></li>
+                <li><a class="nav-item2" href="#home">Home</a></li>
+                <li><a class="nav-item2" href="#about">About Us</a></li>
+                <li><a class="nav-item2" href="#upskill">Upskill</a></li>
+                <li><a class="nav-item2" href="#contact">Contact Us</a></li>
             </ul>
 
             <div class="flex 
@@ -71,10 +71,10 @@
                        justify-center 
                        items-center 
                        hidden md:flex">
-                <li><a class="nav-item" href="#">Home</a></li>
-                <li><a class="nav-item text-btn-color" href="#">About Us</a></li>
-                <li><a class="nav-item" href="#">Upskill</a></li>
-                <li><a class="nav-item" href="#">Contact Us</a></li>
+                <li><a class="nav-item" href="#home">Home</a></li>
+                <li><a class="nav-item text-btn-color" href="#about">About Us</a></li>
+                <li><a class="nav-item" href="#upskill">Upskill</a></li>
+                <li><a class="nav-item" href="#contact">Contact Us</a></li>
             </ul>
 
             <div class="flex 
@@ -92,7 +92,7 @@
     <!-- hero section starts here -->
      <section class="w-full 
                     bg-white dark:bg-dark-bg
-                    pb-24">
+                    pb-24" id="home">
 
         <div class="w-full
                     bg-red-500 
@@ -225,7 +225,8 @@
                         flex-col md:flex-row
                         items-center
                         justify-center md:justify-between
-                        gap-9"> 
+                        gap-9
+                        scroll-mt-16" id="about"> 
             <div class="space-y-12">
                 <p class="text-lg 
                         font-medium 
@@ -398,9 +399,10 @@
          <section class="w-full 
                         bg-white
                         dark:bg-sec-dark-bg
-                        mt-40 md:mt-96
+                        mt-40 md:mt-80
                         p-5 md:px-10
-                        md:py-16">
+                        md:py-16
+                        scroll-mt-12" id="upskill">
             <div class="flex
                         flex-col md:flex-row
                         gap-5 md:gap-0
@@ -474,10 +476,11 @@
         <!-- half circle decoration -->
         <img class="absolute -z-10 dark:hidden" src="assets/img/half-circle2.png" alt="hlf circle">
 
+        <!-- team section starts here -->
         <section class="w-full
                         dark:bg-dark-bg
                         pt-32
-                        overflow-hidden">
+                        overflow-hidden" id="contact">
                         <div class="w-10/12
                                     mx-auto">
                             <div class="flex">
@@ -587,7 +590,52 @@
                             </div>
                         </div>
         </section>
+        <!-- team section ends here -->
     </section>
+
+    <!-- footer section start here -->
+    <footer class="w-full bg-white dark:bg-sec-dark-bg py-8 px-10 flex flex-wrap gap-10 justify-between border-b">
+        <div class="space-y-4 flex-2 md:flex-1">
+            <img class="pr-1 rounded-full bg-white" src="assets/img/logo.png" alt="logo">
+            <p class="text-sec-text-color dark:text-white">Level39 <br>One Canada Square, <br>Canary Wharf, <br>London E14 5AB</p>
+        </div>
+
+        <ul class="space-y-2 flex-2 md:flex-1">
+            <li><a class="text-black dark:text-white font-semibold" href="#">Home</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Collaborations</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Statistics</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">How It Works</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Testimonials</a></li>
+        </ul>
+
+        <ul class="space-y-2 flex-2 md:flex-1">
+            <li><a class="text-black dark:text-white font-semibold" href="#">About Us</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Who We Are</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Mission statement </a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Our Vision </a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">The  Team</a></li>
+        </ul>
+
+        <ul class="space-y-2 flex-1">
+            <li><a class="text-black dark:text-white font-semibold" href="#">Upskill</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">It Support</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Project</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Data Analysts</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Ux Design</a></li>
+        </ul>
+
+        <ul class="space-y-2 flex-1">
+            <li><a class="text-black dark:text-white font-semibold" href="#">Contact Us</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Your message</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Email</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Phone number</a></li>
+            <li><a class="text-sec-text-color dark:text-white text-sm" href="#">Linkedin</a></li>
+        </ul>
+     </footer>
+
+     <div class="w-full text-center py-4 bg-white dark:bg-sec-dark-bg text-sec-text-color dark:text-white text-sm">&copy; Copyright 2022 Creatives For You LTD</div>
+
+    <!-- footer section end here -->
 
 
 
