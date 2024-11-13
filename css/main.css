@@ -90,6 +90,20 @@
         hover:scale-105
         transition-all duration-300;
     }
+
+    .team-card{
+        @apply w-full
+        p-5
+        flex
+        md:flex-col
+        md:text-center
+        items-center
+        gap-3
+        rounded-md
+        shadow-xl
+        bg-white
+        dark:bg-sec-dark-bg;
+    }
 }
 
 @layer utilities{
