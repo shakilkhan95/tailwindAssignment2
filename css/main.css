@@ -102,7 +102,11 @@
         rounded-md
         shadow-xl
         bg-white
-        dark:bg-sec-dark-bg;
+        dark:bg-sec-dark-bg
+        cursor-pointer
+        hover:scale-105
+        transition-all
+        duration-300;
     }
 }
 
